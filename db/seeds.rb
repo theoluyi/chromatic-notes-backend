@@ -3,7 +3,6 @@ User.delete_all
 
 # need to add dependent: destroy
 
-
 user1 = User.create(username: 'Example User', password: "examplepassword" )
 user2 = User.create(username: 'Theo', password: "123" )
 
